@@ -1,0 +1,12 @@
+The base paper implements a hybrid collaborative filtering algorithm for bidirectional recommendation. It has a cube model to explicitly describe the relationship among providers, consumers and Web services. And then, a Standard Deviation based Hybrid Collaborative Filtering (SD-HCF) for Web Service Recommendation (WSRec) and an Inverse consumer Frequency based User Collaborative Filtering (IF-UCF) for Potential Consumers Recommendation (PCRec). The SD-HCF uses USD (User Satisfaction Degree) which is computed using QoS attributes like response time and throughput. To this our approach is to combine ratings resulting from sentiment analysis of text reviews given to the web services by consumers. 
+Data set for filtering algorithms is collected from WS-DREAM dataset.
+The data set for text reviews will be generated synthetically considering- positive, negative and mixed reviews. This will also involve negation phrases and words from domain specific wordnet. 
+Steps involved in Project:
+1. Get data set for both filtering algorithms
+2. Create data set for text reviews, create domain specific wordnet.
+3. Calculating USD and mapping reviews accordingly
+4. Calculating final ratings based on reviews and USD.
+5. SD-HCF 
+6. IF-UCF
+SD-HCF and IF-UCF---> (Similarity computation---> k nearest neighbors selection---> Unknown QoS vector prediction)
+ 
